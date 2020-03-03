@@ -1,5 +1,5 @@
 # AIVA-Reconocimiento-de-componentes-en-circuitos
-El proyecto consiste en que dadas unas imágenes de circuitos integrados se obtengan las localizaciones y la cantidad de condensadores de forma cilíndrica. Estos condesadores son vistos como circunferencias desde la vista de planta desde las que son tomadas las imágenes. Se ha creado creado un modelo entrenado con una batería de 16 imágenes para Train y 8 imágenes para Test. Dicho modelo es el que se pone a disposición del usuario para que pueda encontrar condesadores dada una imagen de entrada.
+El proyecto consiste en que dadas unas imágenes de circuitos integrados se obtengan las localizaciones y la cantidad de condensadores de forma cilíndrica. Estos condesadores son vistos como circunferencias en las imágenes ya que son tomadas desde una vista de planta. Se ha creado un modelo entrenado con una batería de 16 imágenes para Train y 8 imágenes para Test. Dicho modelo es el que se pone a disposición del usuario para que pueda encontrar condesadores dada una imagen de entrada.
 
 ## Primeros pasos
 
