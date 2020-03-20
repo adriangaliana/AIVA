@@ -32,7 +32,7 @@ Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de de
 
 ## Ejecución de los tests
 
-Para comprobar las funciones ejecute test_circuitos.py
+Para comprobar las funciones ejecute test_circuits.py
 
 ## Implementación
 
