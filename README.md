@@ -18,9 +18,16 @@ Qué cosas necesita para instalar el software y cómo instalarlos:
 
 Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo
 
+#### Cómo poner en marcha el proyecto
 ```
-1. Descargue los archivos: test_circuitos.py reconocedor_mockup.py
-2. Abra su editor de Python 3
+1. Base a instalar:
+  1.1 Entorno: Python 3
+  1.2 Bibliotecas: Numpy 1.18.2 , OpenCV-python 4.2.0.32 , tensorflow 2.1.0
+  1.3 Usar el comando pip install seguido del nombre de la biblioteca a instalar
+
+2. Para descargarse el programa hay que hacer click en el botón de Clone or Download
+3. Podrá realizar una muestra de ejemplo de su funcionamiento descargando la foto image_test.jpg
+  
 ```
 
 ## Ejecución de los tests
