@@ -8,7 +8,7 @@ class recognize():
     def __init__(self):
         return
 
-    def validate(self):
+    def _validate(self):
         return
 
     def recognize(self):
