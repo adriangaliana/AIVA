@@ -1,6 +1,7 @@
 import unittest
 import numpy as np
 from reconocedor_mockup import reconocer_imagen, contar_condensadores, posicionar_condensadores
+from recognizer import Recognize
 
 class Test_mockup (unittest.TestCase):
     
@@ -48,6 +49,15 @@ class Test_mockup (unittest.TestCase):
         self.assertTrue((type(res[0]) is int) & (type(res[1]) is int) == True)
 
 
+class Recognizer_test (unittest.TestCase):
+    def test_preprocess (self):
+        r = Recognize()
+        im = cv2.imread('./Train/rec1-1.jpg')
+        im_out = r._preprocess(im)
+        diff = im - im_out
+        print(np.mean(diff))
+        self.assertTrue((diff != 0) == True)
+        
 if __name__ == '__main__':
     unittest.main()
 
