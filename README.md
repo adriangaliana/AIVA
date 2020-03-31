@@ -42,6 +42,10 @@ Se le pasa una imagen a reconocer al módulo reconocedor_mockup.py y este nos de
 
 El modelo es el resultado de una Red YOLO que ha entrenado con las imágenes de la carpeta TRAIN. En dicha carpeta a parte de las imagénes, hay unos archivos .txt que albergan las etiquetas de los condensadores con forma circular. Estas etiquetas han sido introducidas de forma manual mediante el framework LabelImg.
 
+### Preprocess
+La función preprocess mejor la imagen en cuanto a contraste, brillo y gamma. Como se muestra en el siguiente ejemplo, donde vemos a la izquierda la preprocesada y a la derecha la sin preprocesar.
+![Preprocess]https://github.com/adriangaliana/AIVA-Reconocimiento-de-componentes-en-circuitos/blob/master/preprocess_test.png
+
 
 ## Versioning
 
