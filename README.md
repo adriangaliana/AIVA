@@ -44,7 +44,7 @@ El modelo es el resultado de una Red YOLO que ha entrenado con las imágenes de 
 
 ### Preprocess
 La función preprocess mejor la imagen en cuanto a contraste, brillo y gamma. Como se muestra en el siguiente ejemplo, donde vemos a la izquierda la preprocesada y a la derecha la sin preprocesar.
-![Preprocess]https://github.com/adriangaliana/AIVA-Reconocimiento-de-componentes-en-circuitos/blob/master/preprocess_test.png
+![Preprocess](https://github.com/adriangaliana/AIVA-Reconocimiento-de-componentes-en-circuitos/blob/master/preprocess_test.png)
 
 
 ## Versioning
