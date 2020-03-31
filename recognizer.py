@@ -4,18 +4,21 @@ import numpy as np
 import cv2
 import tensorflow as tf
 
-class recognize():
+class Recognize():
     def __init__(self):
-        return
-
-    def _validate(self):
         return
 
     def recognize(self):
 
         imagen_prepro = self._preprocess(image)
         
-        return
+        imagen_validada = self._validate(imagen_prepro)
+        
+        posicion = self._position(imagen_validada)
+        
+        num_condensadores = self._count(posicion)
+        
+        return posicion, num_condensadores
 
 
     def _preprocess(self,image, clip_hist_percent=8):
@@ -54,9 +57,14 @@ class recognize():
         image_preprocessed = cv2.LUT(auto_result, table)
 
         return image_preprocessed
-
+    
+    def _validate(self):
+        return
+    
+    def _position(self):
+        return
+    
     def _count(self):
         return
 
-    def _position(self):
-        return
+
