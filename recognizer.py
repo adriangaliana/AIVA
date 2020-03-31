@@ -8,19 +8,6 @@ class Recognize():
     def __init__(self):
         return
 
-    def recognize(self):
-
-        imagen_prepro = self._preprocess(image)
-        
-        imagen_validada = self._validate(imagen_prepro)
-        
-        posicion = self._position(imagen_validada)
-        
-        num_condensadores = self._count(posicion)
-        
-        return posicion, num_condensadores
-
-
     def _preprocess(self,image, clip_hist_percent=8):
 
         gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -66,5 +53,17 @@ class Recognize():
     
     def _count(self):
         return
+    
+    def recognize(self):
+
+        imagen_prepro = self._preprocess(image)
+
+        imagen_validada = self._validate(imagen_prepro)
+
+        posicion = self._position(imagen_validada)
+
+        num_condensadores = self._count(posicion)
+
+        return posicion, num_condensadores
 
 
