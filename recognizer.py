@@ -13,10 +13,8 @@ class recognize():
 
     def recognize(self):
 
-        """
-        El método reconocedor de imagen devuelve un entero, 1 si la imagen sí se puede reconocer o un 0 si la imagen no
-        se puede reconocer.
-        """
+        imagen_prepro = self._preprocess(image)
+        
         return
 
 
