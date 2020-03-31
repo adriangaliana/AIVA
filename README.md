@@ -38,6 +38,11 @@ Para comprobar las funciones ejecute test_circuits.py
 
 Se le pasa una imagen a reconocer al módulo reconocedor_mockup.py y este nos devuelve la posición y el número de los condesadores que encuentre en la misma
 
+## ¿Cómo ha sido creado el modelo?
+
+El modelo es el resultado de una Red YOLO que ha entrenado con las imágenes de la carpeta TRAIN. En dicha carpeta a parte de las imagénes, hay unos archivos .txt que albergan las etiquetas de los condensadores con forma circular. Estas etiquetas han sido introducidas de forma manual mediante el framework LabelImg.
+
+
 ## Versioning
 
 Las nuevas versiones del proyecto son publicadas en el GitHub del mismo
